@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employeepayrollmultithreading", "Employeepayrollmultithreading.csproj", "{C770CA0D-7F6D-4F05-82A9-573F9A27DD57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Employeepayrollmultithreading", "Employeepayrollmultithreading.csproj", "{C770CA0D-7F6D-4F05-82A9-573F9A27DD57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8850467F-3B5C-48B4-867F-8E5E388460E7}"
+	ProjectSection(SolutionItems) = preProject
+		Employeedetails.cs = Employeedetails.cs
+		EmployeepayrollOPeration.cs = EmployeepayrollOPeration.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EMPLOYEEPAYROLLTESTING", "EMPLOYEEPAYROLLTESTING\EMPLOYEEPAYROLLTESTING.csproj", "{2D407C49-0877-469E-88A5-E72CACADDA12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,10 @@ Global
 		{C770CA0D-7F6D-4F05-82A9-573F9A27DD57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C770CA0D-7F6D-4F05-82A9-573F9A27DD57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C770CA0D-7F6D-4F05-82A9-573F9A27DD57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D407C49-0877-469E-88A5-E72CACADDA12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D407C49-0877-469E-88A5-E72CACADDA12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D407C49-0877-469E-88A5-E72CACADDA12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D407C49-0877-469E-88A5-E72CACADDA12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
